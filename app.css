@@ -10,18 +10,20 @@
 	padding: 0;
 	color: blueviolet;
 }
+
 h1,
 h2,
 h3,
-h4, {
+h4 {
 	margin-bottom: 1rem;
 }
+
 h1 {
 	font-size: 5.4rem;
 	color: aqua;
 	margin-bottom: 5rem;
 }
-h1 > span {
+h1  span {
 	font-size: 2.4rem;
 	font-weight: 500;
 }
@@ -37,13 +39,14 @@ h3 {
 /*utilities*/
 
 .container {
-	width: 100vm;
-	height: 100vm;
+	width: 100vw;
+	height: 100vh;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	max-width: 80rem;
 	margin: 0 auto;
+	padding: 2rem;
 }
 
 .container > * {
@@ -53,6 +56,7 @@ h3 {
 .flex-column {
 	display: flex;
 	flex-direction: column;
+	align-items: center;
 }
 
 .justify-center {
